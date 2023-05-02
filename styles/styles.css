@@ -55,15 +55,14 @@
   float: left;
 }
 
-/*.sec-home{
-    background-color: aqua;
-    height: auto;
-    width: 100%;
+.sec-home {
+  height: auto;
+  width: 100%;
 }
-
-
-.sec-info{
-    h1{
-        color: white;
-    }
-}*//*# sourceMappingURL=styles.css.map */
+.sec-home h1 {
+  color: white;
+}
+.sec-home h2 {
+  color: white;
+  line-height: 50px;
+}/*# sourceMappingURL=styles.css.map */
