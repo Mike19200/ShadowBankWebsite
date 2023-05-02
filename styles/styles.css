@@ -92,10 +92,11 @@
 }
 
 img {
-  right: 20%;
-  height: 200px;
-  display: flex;
-  flex-direction: row;
+  top: 30px;
+  width: 400px;
+  height: 250px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .contenedorimgs {
