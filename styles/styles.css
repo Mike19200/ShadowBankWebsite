@@ -8,6 +8,10 @@
   font-family: "Arcade classic";
 }
 
+.content-section {
+  padding-top: 100px;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -55,14 +59,41 @@
   float: left;
 }
 
-.sec-info {
-  height: auto;
+.section1 {
+  height: 750px;
   width: 100%;
+  background-color: white;
 }
-.sec-info h1 {
+.section1 h1 {
   color: white;
 }
-.sec-info h2 {
+.section1 h2 {
+  color: white;
+  line-height: 50px;
+}
+
+.section2 {
+  height: 750px;
+  width: 100%;
+  background-color: white;
+}
+.section2 h1 {
+  color: white;
+}
+.section2 h2 {
+  color: white;
+  line-height: 50px;
+}
+
+.section3 {
+  height: 750px;
+  width: 100%;
+  background-color: white;
+}
+.section3 h1 {
+  color: white;
+}
+.section3 h2 {
   color: white;
   line-height: 50px;
 }
@@ -72,37 +103,79 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0 30px;
+  height: 100%;
+  width: 100%;
 }
 
-.c2 {
+.contenedor2 {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* section1 */
+.c1-sec1 {
+  padding-left: 100px;
+}
+
+.c2-sec1 {
   text-align: center;
   margin: 7%;
-  padding: 10px;
   overflow-y: hidden;
+  padding-right: 30px;
 }
-.c2 p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+.c2-sec1 p {
+  font-size: 40px;
   color: white;
 }
-.c2 h2 {
+.c2-sec1 h2 {
+  font-size: 60px;
+  color: red;
+}
+
+.c1-sec3 {
+  padding-left: 120px;
+}
+
+/* section 2 */
+.c1-sec2 {
+  text-align: center;
+  margin: 7%;
+  overflow-y: hidden;
+}
+.c1-sec2 p {
+  font-size: 30px;
+  color: black;
+}
+.c1-sec2 h2 {
   font-size: 40px;
   color: red;
 }
 
+.c2-sec2 {
+  padding-right: 100px;
+}
+
+.c2-sec3 {
+  text-align: center;
+  margin: 7%;
+  overflow-y: hidden;
+  padding-right: 50px;
+}
+.c2-sec3 p {
+  font-size: 30px;
+  color: white;
+}
+
 img {
   top: 30px;
-  width: 400px;
-  height: 250px;
+  width: 600px;
+  height: 370px;
   display: inline-block;
   vertical-align: middle;
-  border: 2px solid grey;
-  transition: 0.5s;
-}
-img:hover {
-  transform: scale(1.1);
-  border: 2px solid white;
 }
 
 .contenedorimgs {
