@@ -136,6 +136,21 @@
   color: red;
 }
 
+.c2-about {
+  text-align: center;
+  margin: 7%;
+  overflow-y: hidden;
+  padding-right: 30px;
+}
+.c2-about h2 {
+  font-size: 60px;
+  color: red;
+}
+.c2-about p {
+  font-size: 30px;
+  color: white;
+}
+
 .c1-sec3 {
   padding-left: 120px;
 }
