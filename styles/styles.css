@@ -116,4 +116,11 @@ img:hover {
 .sec-gameplay h1 {
   color: white;
   align-items: center;
+}
+
+.sec-demo {
+  align-items: center;
+}
+.sec-demo h1 {
+  color: white;
 }/*# sourceMappingURL=styles.css.map */
