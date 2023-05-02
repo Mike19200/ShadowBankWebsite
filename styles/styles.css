@@ -65,4 +65,33 @@
 .sec-home h2 {
   color: white;
   line-height: 50px;
+}
+
+.contenedor {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.c2 {
+  text-align: center;
+  margin: 7%;
+  padding: 10px;
+}
+.c2 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.c2 h2 {
+  font-size: 40px;
+  color: white;
+}
+
+img {
+  right: 20%;
+  height: 200px;
+  display: flex;
 }/*# sourceMappingURL=styles.css.map */
