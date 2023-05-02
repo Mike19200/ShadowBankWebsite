@@ -105,7 +105,14 @@ img{
     width: 400px;
     height: 250px;
     display: inline-block;
+    
     vertical-align: middle;
+    border: 2px solid grey;
+    transition: 0.5s;
+    &:hover{
+        transform: scale(1.1);
+        border: 2px solid white;
+    }
 }
 
 .contenedorimgs{
