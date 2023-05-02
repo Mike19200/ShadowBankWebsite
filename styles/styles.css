@@ -119,7 +119,10 @@ img:hover {
 }
 
 .sec-demo {
-  align-items: center;
+  text-align: center;
+  margin: 7%;
+  padding: 10px;
+  top: 100px;
 }
 .sec-demo h1 {
   color: white;
