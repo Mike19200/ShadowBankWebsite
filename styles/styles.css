@@ -126,4 +126,14 @@ img:hover {
 }
 .sec-demo h1 {
   color: white;
+}
+
+.sec-about {
+  text-align: center;
+  margin: 7%;
+  padding: 10px;
+  top: 100px;
+}
+.sec-about h1 {
+  color: white;
 }/*# sourceMappingURL=styles.css.map */
